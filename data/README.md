@@ -1,16 +1,33 @@
-## Data
-https://www.kaggle.com/datasets/irkaal/english-premier-league-results
+## Dataset
+
+https://www.kaggle.com/datasets/saife245/english-premier-league
 
 ## Kaggle API Docs
+
 https://www.kaggle.com/docs/api
 
-
 ```bash
-# To install kaggle 
+# To install kaggle
 pip install kaggle
 ```
+
 ```bash
-# To download the dataset click on the three dots
-# and click copy API command
-# here is the command for the hotel-booking-demand dataset
-kaggle datasets download irkaal/english-premier-league-results```
+# Here is the command for downloading
+# the EPL results dataset
+kaggle datasets download -d saife245/english-premier-league
+```
+
+After running this command the `english-premier-league.zip` file should be added to the project directory
+
+Once you have the zip file, run the `extract.py` file to extract the data from zip into the `data` folder with this command
+
+```bash
+# To extract the data from the zip file
+# run this command
+python extract.py
+```
+
+Ater running the above command you should have <br>`2020-2021.csv`,
+`2021-2022.csv`,
+`final_dataset.csv`, 
+and a `Datasets` folder containing the data for seasons 2000-2020, in your data folder

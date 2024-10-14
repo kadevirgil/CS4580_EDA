@@ -1,8 +1,9 @@
 // Purpose: Ignore files in the data directory
 # Ignore all data-related files in the data directory
 data/*.csv
-data/*.feather
-data/*.parquet
+
+# Ignore the Datasets directory inside the data directory
+data/Datasets
 
 # Ignore all zip files
 *.zip
