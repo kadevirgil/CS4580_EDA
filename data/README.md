@@ -6,8 +6,11 @@ https://www.kaggle.com/datasets/saife245/english-premier-league
 
 https://www.kaggle.com/docs/api
 
+After creating and setting up your new environment use pip to install kaggle
+
 ```bash
-# To install kaggle
+# With your newly created environment run this
+# command to install kaggle
 pip install kaggle
 ```
 
@@ -29,5 +32,5 @@ python extract.py
 
 Ater running the above command you should have <br>`2020-2021.csv`,
 `2021-2022.csv`,
-`final_dataset.csv`, 
+`final_dataset.csv`,
 and a `Datasets` folder containing the data for seasons 2000-2020, in your data folder
