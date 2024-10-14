@@ -1,0 +1,8 @@
+// Purpose: Ignore files in the data directory
+# Ignore all data-related files in the data directory
+data/*.csv
+data/*.feather
+data/*.parquet
+
+# Ignore all zip files
+*.zip
