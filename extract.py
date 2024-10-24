@@ -8,7 +8,7 @@ from zipfile import ZipFile, is_zipfile
 FILE_NAME = "english-premier-league.zip"
 
 
-def extract_data(file_path):
+def extract_data(file_path: str):
     """Extracts data from the zip file into the data directory
 
     Args:
